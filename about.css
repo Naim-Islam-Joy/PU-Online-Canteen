@@ -1,0 +1,31 @@
+/* style.css additions */
+.profile-pic {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border: 5px solid #161716;
+}
+
+body {
+  font-family: 'Noto Sans Bengali', sans-serif;
+  background-color: #f9f9f9;
+}
+
+a {
+  color: #007bff;
+}
+
+.signature {
+  font-family: 'Caveat', cursive;
+  font-size: 28px;
+  color: #262727;
+  margin-top: 15px;
+}
+
+.social-icons a {
+  transition: 0.3s;
+}
+
+.social-icons a:hover {
+  color: #28a745;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login - PU Canteen</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    body {
+      background-color: #f0f8ff;
+    }
+    .login-box {
+      max-width: 400px;
+      margin: 60px auto;
+      padding: 30px;
+      border-radius: 10px;
+      background-color: #fff;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="login-box">
+    <h3 class="text-center mb-4">🔐 PU Canteen Login</h3>
+    <form action="login.php" method="post">
+      <div class="form-group">
+        <label for="email">📧 Email address</label>
+        <input type="email" class="form-control" id="email" name="email" required placeholder="Enter email">
+      </div>
+      <div class="form-group">
+        <label for="password">🔑 Password</label>
+        <input type="password" class="form-control" id="password" name="password" required placeholder="Enter password">
+      </div>
+      <button type="submit" class="btn btn-primary btn-block">Login</button>
+    </form>
+    <div class="text-center mt-3">
+      <a href="sign_up.html">➕ Create Account</a>
+    </div>
+  </div>
+
+</body>
+
+</html>
